@@ -136,7 +136,7 @@ body{font-family: "Pretendard", sans-serif; font-size: 1.6rem; color: #000; line
 /*gallery*/
 .gallery .inner{text-align: center; padding-bottom: 200px;}
 .gallery .gallery_txt br{display: none;}
-.gallery .gallery_txt h3{font-size: 4rem;}
+.gallery .gallery_txt h2{font-size: 4rem;}
 .gallery .gallery_txt p{font-size: 2rem; color: #999; padding-bottom: 50px;}
 
 .gallery  ul{display: flex; flex-wrap: wrap;}
@@ -182,13 +182,14 @@ body{font-family: "Pretendard", sans-serif; font-size: 1.6rem; color: #000; line
 
 #footer .footer_img{text-align: center;}
 #footer .footer_img::before{content: ""; display: block; background: #ddd; width: 50px; height: 1px; margin: 0 auto; margin-bottom: 20px;}
-#footer .gotop{position: absolute; left: 50%; transform: translateX(-50%); top: 0; background: transparent; border: 0;}
+#footer .gotop{position: absolute; left: 50%; transform: translateX(-50%); top: -1px; background: transparent; border: 0;}
 #footer .gotop img{ border: 1px solid #ddd; padding: 10px 15px;}
 
 @media (max-width:700px){
     #footer address{display: inline-block;}
 
 }
+
 
 
 
